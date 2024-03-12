@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Weather from './WeatherApp/Weather';
+// import Weather from './WeatherApp/Weather';
 // import AdviceApp from './AdviceApp/AdviceApp';
 // import FromApp from './Form/FromApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <FromApp /> */}
     {/* <AdviceApp /> */}
-    <Weather />
+    {/* <Weather /> */}
   </React.StrictMode>
 );
 
