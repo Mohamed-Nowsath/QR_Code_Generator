@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fc4278;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    color: #fff;
+    text-align: center;
+}
+div button{
+    border: none;
+    background-color: #ee87a4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+div button:hover{
+    background-color:#964b60 ;
+}
+div h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+b{
+    color: #2c3a47;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius:50% ;
+}
